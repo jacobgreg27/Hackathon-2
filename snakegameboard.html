@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fluffy Snake !</title>
+    <link rel="stylesheet" type="text/css" href="snakegameboard.css">
+</head>
+
+<body>
+    <header>
+
+        
+        <h1>Fluffy Snake, we welcome you to our thrilling game !</h1>
+        <img src="hero2.jpg" height="150px" width="150px">
+        
+    </header>
+
+    <main>
+        <div id="game-board">
+            
+            <img src="snakebody.jpg" height="400px" width="400px" style="box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.837);">
+
+            <form id="name-form" onsubmit="startGame(); return false;">
+                <label for="name-input">Enter your name to start playing:</label>
+                <input type="text" id="name-input" name="name" required>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2023 Fluffy Snake Creators, All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
